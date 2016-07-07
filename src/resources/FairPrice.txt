@@ -1,0 +1,105 @@
+HOUSEBRAND
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13800&pageView=grid&beginIndex=0&langId=-1&top_category=13510&parent_category_rn=13567&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13567&beginIndex=0&urlRequestType=Base&categoryId=13801&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13567&beginIndex=0&urlRequestType=Base&categoryId=13802&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13567&beginIndex=0&urlRequestType=Base&categoryId=13803&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13567&beginIndex=0&urlRequestType=Base&categoryId=13804&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13567&beginIndex=0&urlRequestType=Base&categoryId=13805&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13567&beginIndex=0&urlRequestType=Base&categoryId=13806&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13567&beginIndex=0&urlRequestType=Base&categoryId=13807&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13568&beginIndex=0&urlRequestType=Base&categoryId=13808&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13568&beginIndex=0&urlRequestType=Base&categoryId=13809&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13568&beginIndex=0&urlRequestType=Base&categoryId=13810&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13569&beginIndex=0&urlRequestType=Base&categoryId=13813&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?sType=SimpleSearch&urlRequestType=Base&catalogId=10051&categoryId=13570&pageView=grid&showResultsPage=true&beginIndex=0&resultCatEntryType=&top_category=13510&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?sType=SimpleSearch&urlRequestType=Base&catalogId=10051&categoryId=13571&pageView=grid&showResultsPage=true&beginIndex=0&resultCatEntryType=&top_category=13510&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13571&beginIndex=0&urlRequestType=Base&categoryId=13817&top_category=13510&pageView=grid&catalogId=10051",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13571&beginIndex=0&urlRequestType=Base&categoryId=13818&top_category=13510&pageView=grid&catalogId=10051"]
+BAKING NEEDS
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13572&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13541&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13573&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13541&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13574&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13541&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13575&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13541&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13576&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13541&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13577&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13541&storeId=10001"]
+
+BREAD SPREAD
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13578&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13542&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13579&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13542&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13580&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13542&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13581&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13542&storeId=10001",
+"http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13582&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13542&storeId=10001"]
+
+CANNED FOOD
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=44002&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13543&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13583&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13543&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13584&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13543&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13585&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13543&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13586&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13543&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13587&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13543&storeId=10001"]
+
+CONDIMENTS
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13588&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13544&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13589&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13544&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13590&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13544&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13591&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13544&storeId=10001"]
+
+DRIED FOOD
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13595&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13546&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13596&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13546&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13597&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13546&storeId=10001"]
+
+NOODLES
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13598&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13547&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13599&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13547&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13600&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13547&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13601&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13547&storeId=10001"]
+
+OIL
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13602&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13548&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13603&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13548&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13604&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13548&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13605&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13548&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13607&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13548&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13608&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13548&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13609&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13548&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13610&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13548&storeId=10001"]
+
+RICE
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13611&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13549&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13612&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13549&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13613&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13549&storeId=10001"]
+
+SOUPS
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13614&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13550&storeId=10001",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?urlRequestType=Base&catalogId=10051&categoryId=13615&pageView=grid&beginIndex=0&langId=-1&top_category=13501&parent_category_rn=13550&storeId=10001"]
+
+SUGAR
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?sType=SimpleSearch&urlRequestType=Base&catalogId=10051&categoryId=13551&pageView=grid&showResultsPage=true&beginIndex=0&resultCatEntryType=&langId=-1&top_category=13501&storeId=10001"]
+
+BEVERAGES
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13618&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13619&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13620&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13621&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13622&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13623&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13624&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13625&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13626&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13627&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13628&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13629&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=13630&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13517&beginIndex=0&urlRequestType=Base&categoryId=38011&top_category=13502&pageView=grid&catalogId=10051"]
+
+SNACKS
+["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=44003&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13632&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13633&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13634&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13635&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13636&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13637&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13589&top_category=13502&pageView=grid&catalogId=10051",
+ "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13638&top_category=13502&pageView=grid&catalogId=10051"]
