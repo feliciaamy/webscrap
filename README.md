@@ -1,2 +1,0 @@
-# webscrap
-Online Groceries scraping
