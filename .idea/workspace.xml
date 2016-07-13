@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79b97e6d-fc48-412a-bff5-8b8b8a1b2075" name="Default" comment="Add excel files&#10;" />
+    <list default="true" id="79b97e6d-fc48-412a-bff5-8b8b8a1b2075" name="Default" comment="Add files&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
+    </list>
     <ignored path="webscrap.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -79,7 +82,7 @@
       <file leaf-file-name="Scrape.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/Main/Scrape.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46979865">
+            <state vertical-scroll-proportion="6.1409397">
               <caret line="194" column="47" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
               <folding>
                 <element signature="e#14#47#0" expanded="true" />
@@ -1073,7 +1076,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467922217134</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add files&#10;">
+      <created>1468429914994</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1468429914994</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1122,7 +1131,8 @@
     <MESSAGE value="Initial commit&#10;" />
     <MESSAGE value="Add html sources in resources&#10;" />
     <MESSAGE value="Add excel files&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add excel files&#10;" />
+    <MESSAGE value="Add files&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add files&#10;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1218,7 +1228,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/Main/Scrape.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46979865">
+        <state vertical-scroll-proportion="6.1409397">
           <caret line="194" column="47" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
           <folding>
             <element signature="e#14#47#0" expanded="true" />
