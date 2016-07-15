@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <row>
+        <Data>"FairPrice Baby Wipes - Value Pack (2 X 30S)</Data>
+        <image>http://s3-ap-southeast-1.amazonaws.com/www.fairprice.com.sg/fpol/media/images/product/M/10504763_M1.jpg
+        </image>
+    </row>
+    <row>
+        <Data>"FairPrice Baby Wipes 200S</Data>
+        <image>http://s3-ap-southeast-1.amazonaws.com/www.fairprice.com.sg/fpol/media/images/product/M/13017847_M1.jpg
+        </image>
+    </row>
+    <row>
+        <Data>"FairPrice Easywear Diaper Pant- XL(12-17KG) 24S</Data>
+        <image>http://s3-ap-southeast-1.amazonaws.com/www.fairprice.com.sg/fpol/media/images/product/M/11891152_M1.jpg
+        </image>
+    </row>
+    <row>
+        <Data>"FairPrice Baby Diapers - M 56S (6 - 11KG)</Data>
+        <image>http://s3-ap-southeast-1.amazonaws.com/www.fairprice.com.sg/fpol/media/images/product/M/13011184_M1.jpg
+        </image>
+    </row>
+    <row>
+        <Data>"FairPrice Baby Diapers - L 48S (9 - 14KG)</Data>
+        <image>http://s3-ap-southeast-1.amazonaws.com/www.fairprice.com.sg/fpol/media/images/product/M/13011186_M1.jpg
+        </image>
+    </row>
+    <row>
+        <Data>"FairPrice Baby Diapers - XXL 32S (Over 15KG)</Data>
+        <image>http://s3-ap-southeast-1.amazonaws.com/www.fairprice.com.sg/fpol/media/images/product/M/13011187_M1.jpg
+        </image>
+    </row>
+    <row>
+        <Data>"FairPrice Baby Diapers - XL (12 - 17KG)</Data>
+        <image>http://s3-ap-southeast-1.amazonaws.com/www.fairprice.com.sg/fpol/media/images/product/M/13011188_M1.jpg
+        </image>
+    </row>
+</items>
