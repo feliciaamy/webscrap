@@ -1,5 +1,6 @@
 package Main
 
+import Source.Param
 import groovy.transform.Immutable
 import groovy.transform.TypeChecked
 
@@ -19,15 +20,7 @@ public class Scrape {
         def writer = new StringWriter()
         def output = new File('output.txt')
 
-        def urls = ["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=44003&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13632&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13633&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13634&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13635&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13636&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13637&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13589&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13638&top_category=13502&pageView=grid&catalogId=10051"]
+        def urls = Param.SNACKS
 
         writer.append("Online Shop;Location;Data Extracted;GTIN/Barcode/UPC;Other ID;Product Name;Brand;Unit Size;Category (multiple expected);Image;Price;Description;Description 2;Country of Origin;Dietary Information;Storage;Nutritional Info;Ingredients\n")
         urls.each {

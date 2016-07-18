@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79b97e6d-fc48-412a-bff5-8b8b8a1b2075" name="Default" comment="Add files&#10;">
+    <list default="true" id="79b97e6d-fc48-412a-bff5-8b8b8a1b2075" name="Default" comment="Update on detail&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/Source/Param.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure10.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure11.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure12.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure13.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure14.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure15.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure4.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure5.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure6.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure7.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure8.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure9.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_findDetail_closure2_closure9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_main_closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_main_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_main_closure1_closure3.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape$_main_closure1_closure3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Main/Scrape.class" afterPath="$PROJECT_DIR$/build/classes/main/Main/Scrape.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/Main/Scrape.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/Main/Scrape.groovy" />
     </list>
     <ignored path="webscrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +100,21 @@
       <file leaf-file-name="Scrape.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/Main/Scrape.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.1409397">
-              <caret line="194" column="47" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.738255">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
-                <element signature="e#14#47#0" expanded="true" />
+                <element signature="e#14#33#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Param.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/Source/Param.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +159,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -478,6 +507,7 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/output.xml" />
         <option value="$PROJECT_DIR$/src/resources/FairPrice.txt" />
+        <option value="$PROJECT_DIR$/src/main/groovy/Source/Param.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/Main/Scrape.groovy" />
       </list>
     </option>
@@ -590,6 +620,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webscrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webscrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1088,7 +1144,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468430908416</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update on detail&#10;">
+      <created>1468597078342</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1468597078342</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1138,7 +1200,8 @@
     <MESSAGE value="Add html sources in resources&#10;" />
     <MESSAGE value="Add excel files&#10;" />
     <MESSAGE value="Add files&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add files&#10;" />
+    <MESSAGE value="Update on detail&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update on detail&#10;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1233,12 +1296,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/Source/Param.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/Main/Scrape.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.1409397">
-          <caret line="194" column="47" selection-start-line="194" selection-start-column="47" selection-end-line="194" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.738255">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
-            <element signature="e#14#47#0" expanded="true" />
+            <element signature="e#14#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
