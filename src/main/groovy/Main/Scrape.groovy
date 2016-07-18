@@ -10,35 +10,27 @@ import java.util.regex.Pattern
  * Created by user on 4/7/16.
  */
 public class Scrape {
-
     public static def main(def args) {
         def date = new Date()
         def loc = "Singapore"
         def store = "FairPrice"
-        Map items = new HashMap()
         def writer = new StringWriter()
         def output = new File('output.txt')
 
-        def urls = ["http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=44003&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13632&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13633&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13634&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13635&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13636&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13637&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13589&top_category=13502&pageView=grid&catalogId=10051",
-                    "http://www.fairprice.com.sg/webapp/wcs/stores/servlet/CategoryDisplay?storeId=10001&parent_category_rn=13518&beginIndex=0&urlRequestType=Base&categoryId=13638&top_category=13502&pageView=grid&catalogId=10051"]
-
-        writer.append("Online Shop;Location;Data Extracted;GTIN/Barcode/UPC;Other ID;Product Name;Brand;Unit Size;Category (multiple expected);Image;Price;Description;Description 2;Country of Origin;Dietary Information;Storage;Nutritional Info;Ingredients\n")
+        List<String> urls = Parameters.SNACKS
+        writer.append("Online Shop;Location;Data Extracted;GTIN/Barcode/UPC;Other ID;Product Name;Brand;Unit Size;" +
+                "Coba (multiple expected);Image;Price;Dietary Info;Description;Ingredients;Preparation Info;" +
+                "Country of Origin;Special Remarks;Storage;Nutritional Info\n")
         urls.each {
             def data = new URL(it).getText()
             def takeNextData = false
             String name
-            def src
+            def image
             String category
             def price
             def brand
             def unitSize = "null"
+            Item item
 
             data.eachLine {
                 if (it.contains(" | fairprice") || it.contains(" | FairPrice")) {
@@ -49,7 +41,7 @@ public class Scrape {
                     def http = it.indexOf("http")
                     def af = it.indexOf("\"", http)
                     def url = it.substring(http, af)
-                    findDetail(url)
+                    item = findDetail(url)
                 } else if (it.contains("img_plh_n")) {
                     takeNextData = true
                 } else if (it.contains("img alt") && !it.contains("Next Page")) {
@@ -76,7 +68,9 @@ public class Scrape {
                             || name.contains("(Pyramid Tea Bags)") || name.contains("(100 Teabags)") || name.contains("(20Sachets)")
                             || name.contains("(No Added Sugar)") || name.contains("(No Sugar)") || name.contains("(18 Sachets)")
                             || name.contains("(CTN)") || name.contains("(Manufactured In SG)") || name.contains("(6S)")
-                            || name.contains("(Fat Free)") || name.contains("(Low Fat)") || name.contains("(4S)") || name.contains("(Limited Edt)")) {
+                            || name.contains("(Fat Free)") || name.contains("(Low Fat)") || name.contains("(4S)") || name.contains("(Limited Edt)")
+                            || name.contains("(12-Pack)") || name.contains("(6 Bars)") || name.contains("(20Sticks)") || name.contains("(6PK/12S)")
+                            || name.contains("(6 Packs)")) {
                         def rest = name.substring(name.indexOf(")"))
                         name = name.substring(0, name.indexOf(")") + 1)
                         if ((digitIndex = findDigit(rest)) != -1) {
@@ -97,6 +91,9 @@ public class Scrape {
                         if (name.contains("365 ")) {
                             def temp = name.replace("365 ", "")
                             digitIndex = findDigit(temp) + 4
+                        } else if (name.contains("7D ")) {
+                            def temp = name.replace("7D ", "")
+                            digitIndex = findDigit(temp) + 3
                         }
                         unitSize = name.substring(digitIndex)
                         name = name.substring(0, digitIndex)
@@ -107,10 +104,14 @@ public class Scrape {
                     price = it.replaceAll("\\s+", "")
                     takeNextData = false
                 } else if (takeNextData && it.contains("http")) {
-                    src = it
+                    image = it
                     takeNextData = false
                 } else if (it.contains("Add to Cart")) {
-                    writer.append("$store;$loc;$date;null;null;$name;$brand;$unitSize;$category;$src;$price;null;null;null;null;null;null;null\n")
+                    item = new Item(store: store, location: loc, dataExtracted: date, brand: brand, unitSize: unitSize,
+                            name: name, category: category, imageLink: image, price: price, description: item.description,
+                            ingredient: item.ingredient, prepInfo: item.prepInfo, country: item.country,
+                            dietaryInfo: item.dietaryInfo, specialRemark: item.specialRemark, storage: item.storage)
+                    writer.append(printItem(item) + "\n")
                 }
             }
         }
@@ -119,6 +120,11 @@ public class Scrape {
         PrintWriter pw = new PrintWriter(output)
         pw.write(writer.toString())
         pw.close()
+    }
+
+    private static String printItem(Item i) {
+        return "$i.store;$i.location;$i.dataExtracted;$i.barcode;$i.otherID;$i.name;$i.brand;$i.unitSize;$i.category;$i.imageLink;" +
+                "$i.price;$i.dietaryInfo;$i.description;$i.ingredient;$i.prepInfo;$i.country;$i.specialRemark;$i.storage"
     }
 
     private static int findDigit(String str) {
@@ -167,7 +173,7 @@ public class Scrape {
                           "Streamline", "Storck", "Sun Kee", "Sunmaid", "Sun Brand", "Sunbeam", "Sunflower", "Sunfresh", "SUNSWEET", "Super", "Swallow",
                           "Swan (Tai Ann)", "Swan Tai Ann", "Swanson", "Sweet Nature"]
         List<String> t = ["Tai Hua", "Tai Sun", "Taikoo", "Taisun", "Tarami", "Tan Ngan Lo", "Tango", "Tao Kaenoi", "Taylor", "Teapot", "Temasek", "Tesco Everyday Value", "Tesco",
-                          "Three Leg", "Tiger", "Triko", "Toblerone", "Tong Garden", "Tulip"]
+                          "Three Leg", "Tiger", "Treatz", "Triko", "Toblerone", "Tong Garden", "Tulip"]
         List<String> u = ["UFC", "Uncle Tobys", "Unisoy"]
         List<String> v = ["V-Soy", "Veflower", "Venola", "Vicks", "Victory", "Vitasoy"]
         List<String> w = ["Want Want Senbei", "Wai Wai", "Welch's", "Windmill", "White Wings", "Wholesome", "Wrigley's", "Woh Hup", "Wong Coco"]
@@ -196,14 +202,14 @@ public class Scrape {
     }
 
     @TypeChecked
-    private static String findDetail(String url) {
+    private static Item findDetail(String url) {
         println(url)
         String data = new URL(url).getText()
         def getDesc = false
         def getIngredient = false
         def ingredient = ""
         def getPrepInfo = false
-        def preparation_info = ""
+        def prepInfo = ""
         def getCountry = false
         def country = ""
         def getDietaryInfo = false
@@ -212,7 +218,7 @@ public class Scrape {
         def storage = ""
         def getSpecialRemark = false
         def specialRemark = ""
-        def detail = []
+        def description = []
         data.eachLine {
             String line = it
             line = line.trim()
@@ -223,7 +229,7 @@ public class Scrape {
                     getDesc = true
                     break
                 case { getDesc && line.contains("<br>") }:
-                    detail = line.split("<br>|</br>")
+                    description = line.split("<br>|</br>|<br/>")
                     getDesc = false
                     break
                 case { line.contains("Ingredients:") }:
@@ -237,11 +243,10 @@ public class Scrape {
                     getPrepInfo = true
                     break
                 case { getPrepInfo && !line.contains("<") && !line.equals("") }:
-                    preparation_info = line.trim()
+                    prepInfo = line.trim()
                     getPrepInfo = false
                     break
                 case { line.contains("Country Of Origin:") }:
-                    "country"
                     getCountry = true
                     break
                 case { getCountry && !line.contains("<") && !line.equals("") }:
@@ -264,34 +269,47 @@ public class Scrape {
                     break
             }
         }
-        println(detail)
+        println(description)
         println(ingredient)
-        println(preparation_info)
+        println(prepInfo)
         println(country)
         println(dietaryInfo)
         println(specialRemark)
         println(storage)
+        return new Item(description: printList(description), ingredient: ingredient, prepInfo: prepInfo, country: country,
+                dietaryInfo: dietaryInfo, specialRemark: specialRemark, storage: storage)
 
     }
 
-    @Immutable
-    class Item {
-        String shop
-        String location
-        Date dataExtracted
-        String barcode
-        String otherID
-        String name
-        String brand
-        String unitSize
-        String category
-        String imageLink
-        String price
-        String detail
-        String ingredient
-        String prepInfo
-        String country
-        String specialRemark
-        String storage
+    @TypeChecked
+    private static String printList(def lst) {
+        String output = ""
+        lst.each {
+            String temp = it.toString().trim().replace(".", "")
+            output = output + it.toString().trim() + ". "
+        }
+        return output
     }
+}
+
+@Immutable
+class Item {
+    String store
+    String location
+    Date dataExtracted
+    String barcode
+    String otherID
+    String name
+    String brand
+    String unitSize
+    String category
+    String imageLink
+    String price
+    String dietaryInfo
+    String description
+    String ingredient
+    String prepInfo
+    String country
+    String specialRemark
+    String storage
 }
